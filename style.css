@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+main {
+    background-color: aqua;
+}
+footer {
+    background-color: blueviolet;
+}
+
+.button-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 50px;
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.button-header:hover{
+    background-color: greenyellow;
+    color: black;
+    transition-duration: 1s;
+}
