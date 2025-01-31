@@ -12,10 +12,6 @@ header {
     height: 100px;
 }
 
-main {
-    background-color: aqua;
-}
-
 footer {
     background-color: blueviolet;
 }
@@ -40,9 +36,48 @@ footer {
 
 .button-header:hover {
     transition-duration: 0.5 s;
-
     a {
         text-decoration: none;
         color: rgb(37, 171, 82);
     }
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-family: "JetBrains Mono";
+    flex-direction: column;
+    .main-span{
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .subtitle-span{
+        font-size: 20px;
+    }
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.main-left{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+}
+
+.main-right{
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    width: 40%;
+}
+
+.main-photo {
+    width: 90%;
 }
